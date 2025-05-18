@@ -1,0 +1,253 @@
+Acrobot:
+  normalize: true
+  policy: 'MlpPolicy'
+  n_steps: 4096
+  gae_lambda: 0.94
+  gamma: 0.99
+  n_epochs: 4
+  ent_coef: 0.0
+
+# Tuned
+CartPole:
+  policy: 'MlpPolicy'
+  n_steps: 256
+  batch_size: 256
+  gae_lambda: 0.8
+  gamma: 0.98
+  n_epochs: 20
+  ent_coef: 0.0
+  learning_rate: lin_0.001
+  clip_range: lin_0.2
+
+# Tuned
+MountainCarContinuous:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 256
+  n_steps: 8
+  gamma: 0.9999
+  learning_rate: !!float 7.77e-05
+  ent_coef: 0.00429
+  clip_range: 0.1
+  n_epochs: 10
+  gae_lambda: 0.9
+  max_grad_norm: 5
+  vf_coef: 0.19
+  use_sde: True
+  policy_kwargs: "dict(log_std_init=-3.29, ortho_init=False)"
+
+MountainCar:
+  normalize: true
+  policy: 'MlpPolicy'
+  n_steps: 256
+  gae_lambda: 0.98
+  gamma: 0.99
+  n_epochs: 4
+  ent_coef: 0.0
+
+# Tuned
+Pendulum:
+  policy: 'MlpPolicy'
+  n_steps: 4096
+  gae_lambda: 0.95
+  gamma: 0.9
+  n_epochs: 10
+  ent_coef: 0.0
+  learning_rate: !!float 1e-3
+  clip_range: 0.2
+  use_sde: True
+  sde_sample_freq: 4
+
+BipedalWalker:
+  normalize: true
+  policy: 'MlpPolicy'
+  n_steps: 65536
+  batch_size: 64
+  gae_lambda: 0.95
+  gamma: 0.999
+  n_epochs: 10
+  ent_coef: 0.0
+  learning_rate: !!float 3e-4
+  clip_range: 0.18
+
+CarRacing:
+  normalize: "{'norm_obs': False, 'norm_reward': True}"
+  policy: 'CnnPolicy'
+  batch_size: 128
+  n_steps: 4096
+  gamma: 0.99
+  gae_lambda: 0.95
+  n_epochs: 10
+  ent_coef: 0.0
+  sde_sample_freq: 4
+  max_grad_norm: 0.5
+  vf_coef: 0.5
+  learning_rate: lin_1e-4
+  use_sde: True
+  clip_range: 0.2
+  policy_kwargs: "dict(log_std_init=-2, ortho_init=False, activation_fn=nn.GELU, net_arch=dict(pi=[256], vf=[256]))"
+
+LunarLander:
+  policy: 'MlpPolicy'
+  n_steps: 16384
+  batch_size: 64
+  gae_lambda: 0.98
+  gamma: 0.999
+  n_epochs: 4
+  ent_coef: 0.01
+
+Ant:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 1024
+  n_steps: 16384
+
+# Tuned
+HalfCheetah:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 512
+  n_steps: 8192
+  gamma: 0.98
+  learning_rate: !!float 2.0633e-05
+  ent_coef: 0.000401762
+  clip_range: 0.1
+  n_epochs: 20
+  gae_lambda: 0.92
+  max_grad_norm: 0.8
+  vf_coef: 0.58096
+  policy_kwargs: "dict(log_std_init=-2, ortho_init=False, activation_fn=nn.ReLU, net_arch=dict(pi=[256, 256], vf=[256, 256]))"
+
+# Tuned
+Hopper:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 512
+  n_steps: 8192
+  gamma: 0.999
+  learning_rate: !!float 9.80828e-05
+  ent_coef: 0.00229519
+  clip_range: 0.2
+  n_epochs: 5
+  gae_lambda: 0.99
+  max_grad_norm: 0.7
+  vf_coef: 0.835671
+  policy_kwargs: "dict(log_std_init=-2, ortho_init=False, activation_fn=nn.ReLU, net_arch=dict(pi=[256, 256], vf=[256, 256]))"
+
+# Tuned
+Humanoid:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 1024
+  n_steps: 16384
+  gamma: 0.95
+  learning_rate: !!float 3.56987e-05
+  ent_coef: 0.00238306
+  clip_range: 0.3
+  n_epochs: 5
+  gae_lambda: 0.9
+  max_grad_norm: 2
+  vf_coef: 0.431892
+  policy_kwargs: "dict(log_std_init=-2, ortho_init=False, activation_fn=nn.ReLU, net_arch=dict(pi=[256, 256], vf=[256, 256]))"
+
+# Tuned
+HumanoidStandup:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 1024
+  n_steps: 16384
+  gamma: 0.99
+  learning_rate: !!float 2.55673e-05
+  ent_coef: 3.62109e-06
+  clip_range: 0.3
+  n_epochs: 20
+  gae_lambda: 0.9
+  max_grad_norm: 0.7
+  vf_coef: 0.430793
+  policy_kwargs: "dict(log_std_init=-2, ortho_init=False, activation_fn=nn.ReLU, net_arch=dict(pi=[256, 256], vf=[256, 256]))"
+
+# Tuned
+InvertedDoublePendulum:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 128
+  n_steps: 512
+  gamma: 0.98
+  learning_rate: 0.000155454
+  ent_coef: 1.05057e-06
+  clip_range: 0.4
+  n_epochs: 10
+  gae_lambda: 0.8
+  max_grad_norm: 0.5
+  vf_coef: 0.695929
+
+# Tuned
+InvertedPendulum:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 32
+  n_steps: 64
+  gamma: 0.999
+  learning_rate: 0.000222425
+  ent_coef: 1.37976e-07
+  clip_range: 0.4
+  n_epochs: 5
+  gae_lambda: 0.9
+  max_grad_norm: 0.3
+  vf_coef: 0.19816
+
+Pusher:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 512
+  n_steps: 8192
+
+# Tuned
+Reacher:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 512
+  n_steps: 8192
+  gamma: 0.9
+  learning_rate: 0.000104019
+  ent_coef: 7.52585e-08
+  clip_range: 0.3
+  n_epochs: 5
+  gae_lambda: 1.0
+  max_grad_norm: 0.9
+  vf_coef: 0.950368
+
+# tuned
+Swimmer:
+  normalize: true
+  policy: 'MlpPolicy'
+  gamma: 0.9999
+  batch_size: 128
+  n_steps: 2048
+  learning_rate: !!float 6e-4
+  gae_lambda: 0.98
+
+# Tuned
+Walker2d:
+  normalize: true
+  policy: 'MlpPolicy'
+  batch_size: 512
+  n_steps: 8192
+  gamma: 0.99
+  learning_rate: !!float 5.05041e-05
+  ent_coef: 0.000585045
+  clip_range: 0.1
+  n_epochs: 20
+  gae_lambda: 0.95
+  max_grad_norm: 1
+  vf_coef: 0.871923
+
+ALE/:
+  policy: 'CnnPolicy'
+  n_steps: 1024
+  n_epochs: 4
+  batch_size: 256
+  learning_rate: lin_2.5e-4
+  clip_range: lin_0.1
+  vf_coef: 0.5
+  ent_coef: 0.01

@@ -1,0 +1,78 @@
+# Tuned
+MountainCarContinuous:
+  policy: 'MlpPolicy'
+  noise_type: 'ornstein-uhlenbeck'
+  noise_std: 0.5
+  gradient_steps: 1
+  train_freq: 1
+  learning_rate: !!float 1e-3
+  batch_size: 256
+  policy_kwargs: "dict(net_arch=[400, 300])"
+
+Pendulum:
+  policy: 'MlpPolicy'
+  gamma: 0.98
+  buffer_size: 200000
+  learning_starts: 10000
+  noise_type: 'normal'
+  noise_std: 0.1
+  gradient_steps: 1
+  train_freq: 1
+  learning_rate: !!float 1e-3
+  policy_kwargs: "dict(net_arch=[400, 300])"
+
+BipedalWalker:
+  policy: 'MlpPolicy'
+  gamma: 0.98
+  buffer_size: 200000
+  learning_starts: 10000
+  noise_type: 'normal'
+  noise_std: 0.1
+  gradient_steps: 1
+  train_freq: 1
+  learning_rate: !!float 1e-3
+  policy_kwargs: "dict(net_arch=[400, 300])"
+
+CarRacing:
+  policy: 'CnnPolicy'
+  buffer_size: 1000000
+
+LunarLander:
+  policy: 'MlpPolicy'
+  gamma: 0.98
+  buffer_size: 200000
+  learning_starts: 10000
+  noise_type: 'normal'
+  noise_std: 0.1
+  gradient_steps: 1
+  train_freq: 1
+  learning_rate: !!float 1e-3
+  policy_kwargs: "dict(net_arch=[400, 300])"
+
+# === Mujoco Envs ===
+HalfCheetah: &mujoco-defaults
+  policy: 'MlpPolicy'
+  learning_starts: 10000
+  noise_type: 'normal'
+  noise_std: 0.1
+  train_freq: 1
+  gradient_steps: 1
+  learning_rate: !!float 1e-3
+  batch_size: 256
+  policy_kwargs: "dict(net_arch=[400, 300])"
+
+Ant:
+  <<: *mujoco-defaults
+
+Hopper:
+  <<: *mujoco-defaults
+
+Humanoid:
+  <<: *mujoco-defaults
+
+Swimmer:
+  <<: *mujoco-defaults
+  gamma: 0.9999
+
+Walker2d:
+  <<: *mujoco-defaults

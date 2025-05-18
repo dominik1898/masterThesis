@@ -1,0 +1,51 @@
+Server-Login:
+WireGuard starten + Schlüssel aktivieren
+ssh ml-stud31@130.83.192.148
+ssh ml-stud31@130.83.192.150
+Passwort: dSsdMtuwaeLooo98
+
+
+
+
+
+Datei auf Server kopieren:	(scp <lokale_datei> <nutzername>@<remote_server>:<remote_pfad>)
+scp C:\Users\domin\PycharmProjects\masterThesis\server_instructions.txt ml-stud31@130.83.192.148:~/masterThesis/
+
+Datei von Server herunterladen:	(scp <nutzername>@<remote_server>:<remote_datei> <lokaler_pfad>)
+scp ml-stud31@130.83.192.148:~/masterThesis/server_instructions.txt C:\Users\domin\Downloads\
+
+Ordner auf Server kopieren:	(scp -r <lokaler_ordner> <nutzername>@<remote_server>:<remote_pfad>)
+scp -r C:\Users\domin\PycharmProjects\masterThesis\ ml-stud31@130.83.192.148:~
+
+Ordner von Server herunterladen:(scp -r <nutzername>@<remote_server>:<remote_ordner> <lokaler_pfad>)
+scp -r ml-stud31@130.83.192.148:~/masterThesis/models/ C:\Users\domin\PycharmProjects\masterThesis\
+
+
+
+
+
+Datei auf dem Server verändern:
+nano test.py	-->	(Datei verändern)	-->	Strg + X ; Y ; Enter
+
+Datei auf dem Server löschen:
+rm <datei1> <datei2> <datei3>
+
+Ordner auf dem Server löschen:
+rm -r <ordner1> <ordner2> <ordner3>
+
+
+
+
+
+tmux-Sitzungen erstellen, welche auch nach dem Ausloggen vom Server weiterlaufen:
+Starte eine neue tmux-Sitzung:		tmux new -s GPU_
+Trenne/verlasse die Sitzung:		Drücke CTRL+B, gefolgt von D
+Liste aktive Sitzungen auf:		tmux ls
+Mit der Sitzung wieder verbinden:	tmux attach -t GPU_
+Sitzung löschen:			tmux kill-session -t GPU_
+
+
+
+
+GPU auswählen (CUDA_VISIBLE_DEVICES):
+CUDA_VISIBLE_DEVICES=0,1,7 python CartPole_PPO.py

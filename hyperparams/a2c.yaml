@@ -1,0 +1,146 @@
+Acrobot:
+  normalize: true
+  n_steps: 80
+  policy: 'MlpPolicy'
+  ent_coef: 0.0
+
+CartPole:
+  n_steps: 40
+  policy: 'MlpPolicy'
+  ent_coef: 0.0
+
+# Tuned
+MountainCarContinuous:
+  normalize: true
+  n_steps: 400
+  policy: 'MlpPolicy'
+  ent_coef: 0.0
+  use_sde: True
+  sde_sample_freq: 16
+  policy_kwargs: "dict(log_std_init=0.0, ortho_init=False)"
+
+MountainCar:
+  normalize: true
+  n_steps: 80
+  policy: 'MlpPolicy'
+  ent_coef: 0.0
+
+# Tuned
+Pendulum:
+  normalize: True
+  policy: 'MlpPolicy'
+  ent_coef: 0.0
+  max_grad_norm: 0.5
+  n_steps: 64
+  gae_lambda: 0.9
+  vf_coef: 0.4
+  gamma: 0.9
+  use_rms_prop: True
+  normalize_advantage: False
+  learning_rate: lin_7e-4
+  use_sde: True
+  policy_kwargs: "dict(log_std_init=-2, ortho_init=False)"
+
+# Tuned
+BipedalWalker:
+  normalize: true
+  policy: 'MlpPolicy'
+  ent_coef: 0.0
+  max_grad_norm: 0.5
+  n_steps: 128
+  gae_lambda: 0.9
+  vf_coef: 0.4
+  gamma: 0.99
+  use_rms_prop: True
+  normalize_advantage: False
+  learning_rate: lin_0.00096
+  use_sde: True
+  policy_kwargs: "dict(log_std_init=-2, ortho_init=False)"
+
+CarRacing:
+  normalize: "{'norm_obs': False, 'norm_reward': True}"
+  policy: 'CnnPolicy'
+  n_steps: 512
+  gamma: 0.99
+  gae_lambda: 0.95
+  ent_coef: 0.0
+  sde_sample_freq: 4
+  max_grad_norm: 0.5
+  vf_coef: 0.5
+  learning_rate: lin_1e-4
+  use_sde: True
+  policy_kwargs: "dict(log_std_init=-2, ortho_init=False, activation_fn=nn.GELU, net_arch=dict(pi=[256], vf=[256]))"
+
+# Tuned
+LunarLander:
+  normalize: true
+  policy: 'MlpPolicy'
+  ent_coef: 0.0
+  max_grad_norm: 0.5
+  n_steps: 32
+  gae_lambda: 0.9
+  vf_coef: 0.4
+  gamma: 0.99
+  use_rms_prop: True
+  normalize_advantage: False
+  learning_rate: lin_7e-4
+  use_sde: True
+  policy_kwargs: "dict(log_std_init=-2, ortho_init=False)"
+
+HalfCheetah: &mujoco-defaults
+  normalize: true
+  policy: 'MlpPolicy'
+  learning_rate: !!float 7e-4
+  gamma: 0.99
+  gae_lambda: 0.95
+  vf_coef: 0.5
+  ent_coef: 0.01
+  max_grad_norm: 0.5
+  use_rms_prop: True
+  n_steps: 512
+
+Ant:
+  <<: *mujoco-defaults
+  learning_rate: !!float 5e-4
+  max_grad_norm: 1.0
+
+Hopper:
+  <<: *mujoco-defaults
+
+Walker2d:
+  <<: *mujoco-defaults
+
+Humanoid:
+  <<: *mujoco-defaults
+  learning_rate: !!float 5e-4
+  max_grad_norm: 1.0
+
+Swimmer:
+  <<: *mujoco-defaults
+  gamma: 0.9999
+
+HumanoidStandup:
+  <<: *mujoco-defaults
+  learning_rate: !!float 5e-4
+  max_grad_norm: 1.0
+
+InvertedDoublePendulum:
+  normalize: true
+  policy: 'MlpPolicy'
+
+InvertedPendulum:
+  normalize: true
+  policy: 'MlpPolicy'
+
+Pusher:
+  <<: *mujoco-defaults
+
+Reacher:
+  <<: *mujoco-defaults
+
+ALE/:
+  policy: 'CnnPolicy'
+  n_steps: 80
+  ent_coef: 0.01
+  vf_coef: 0.25
+  policy_kwargs: "dict(optimizer_class=RMSpropTFLike, optimizer_kwargs=dict(eps=1e-5))"

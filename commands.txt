@@ -1,0 +1,146 @@
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Acrobot" --total_timesteps 2097152
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "CartPole" --total_timesteps 2097152
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "MountainCarContinuous" --total_timesteps 2097152
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "MountainCar" --total_timesteps 2097152
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Pendulum" --total_timesteps 2097152
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "BipedalWalker" --total_timesteps 8388608
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "CarRacing" --total_timesteps 8388608
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "LunarLander" --total_timesteps 8388608
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Blackjack" --total_timesteps 2097152
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Taxi" --total_timesteps 2097152
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "CliffWalking" --total_timesteps 2097152
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "FrozenLake" --total_timesteps 2097152
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Ant" --total_timesteps 33554432
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "HalfCheetah" --total_timesteps 33554432
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Hopper" --total_timesteps 33554432
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Humanoid" --total_timesteps 33554432
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "HumanoidStandup" --total_timesteps 33554432
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "InvertedDoublePendulum" --total_timesteps 8388608
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "InvertedPendulum" --total_timesteps 8388608
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Pusher" --total_timesteps 33554432
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Reacher" --total_timesteps 8388608
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Swimmer" --total_timesteps 33554432
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Ensemble" --environment_name "Walker2d" --total_timesteps 33554432
+
+
+
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Acrobot" --total_timesteps 2097152
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "CartPole" --total_timesteps 2097152
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "MountainCarContinuous" --total_timesteps 2097152
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "MountainCar" --total_timesteps 2097152
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Pendulum" --total_timesteps 2097152
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "BipedalWalker" --total_timesteps 8388608
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "CarRacing" --total_timesteps 8388608
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "LunarLander" --total_timesteps 8388608
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Blackjack" --total_timesteps 2097152
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Taxi" --total_timesteps 2097152
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "CliffWalking" --total_timesteps 2097152
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "FrozenLake" --total_timesteps 2097152
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Ant" --total_timesteps 33554432
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "HalfCheetah" --total_timesteps 33554432
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Hopper" --total_timesteps 33554432
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Humanoid" --total_timesteps 33554432
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "HumanoidStandup" --total_timesteps 33554432
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "InvertedDoublePendulum" --total_timesteps 8388608
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "InvertedPendulum" --total_timesteps 8388608
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Pusher" --total_timesteps 33554432
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Reacher" --total_timesteps 8388608
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Swimmer" --total_timesteps 33554432
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Ensemble" --environment_name "Walker2d" --total_timesteps 33554432
+
+
+
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "MountainCarContinuous" --total_timesteps 8388608
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "Pendulum" --total_timesteps 8388608
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "BipedalWalker" --total_timesteps 8388608
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "CarRacing" --total_timesteps 4194304
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "LunarLander" --total_timesteps 8388608
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "Ant" --total_timesteps 16777216
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "HalfCheetah" --total_timesteps 16777216
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "Hopper" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "Humanoid" --total_timesteps 16777216
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "HumanoidStandup" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "InvertedDoublePendulum" --total_timesteps 8388608
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "InvertedPendulum" --total_timesteps 8388608
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "Pusher" --total_timesteps 16777216
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "Reacher" --total_timesteps 16777216
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "Swimmer" --total_timesteps 16777216
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Ensemble" --environment_name "Walker2d" --total_timesteps 16777216
+
+
+
+
+
+
+
+
+
+
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Acrobot" --total_timesteps 1048576
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "CartPole" --total_timesteps 1048576
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "MountainCarContinuous" --total_timesteps 1048576
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "MountainCar" --total_timesteps 1048576
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Pendulum" --total_timesteps 1048576
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "BipedalWalker" --total_timesteps 4194304
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "CarRacing" --total_timesteps 4194304
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "LunarLander" --total_timesteps 4194304
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Blackjack" --total_timesteps 1048576
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Taxi" --total_timesteps 1048576
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "CliffWalking" --total_timesteps 1048576
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "FrozenLake" --total_timesteps 1048576
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Ant" --total_timesteps 16777216
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "HalfCheetah" --total_timesteps 16777216
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Hopper" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Humanoid" --total_timesteps 16777216
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "HumanoidStandup" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "InvertedDoublePendulum" --total_timesteps 4194304
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "InvertedPendulum" --total_timesteps 4194304
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Pusher" --total_timesteps 16777216
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Reacher" --total_timesteps 4194304
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Swimmer" --total_timesteps 16777216
+--- (done, orange) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "PPO" --uncertainty_method "Dropout" --environment_name "Walker2d" --total_timesteps 16777216
+
+
+
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Acrobot" --total_timesteps 1048576
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "CartPole" --total_timesteps 1048576
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "MountainCarContinuous" --total_timesteps 1048576
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "MountainCar" --total_timesteps 1048576
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Pendulum" --total_timesteps 1048576
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "BipedalWalker" --total_timesteps 4194304
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "CarRacing" --total_timesteps 4194304
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "LunarLander" --total_timesteps 4194304
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Blackjack" --total_timesteps 1048576
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Taxi" --total_timesteps 1048576
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "CliffWalking" --total_timesteps 1048576
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "FrozenLake" --total_timesteps 1048576
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Ant" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "HalfCheetah" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Hopper" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Humanoid" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "HumanoidStandup" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "InvertedDoublePendulum" --total_timesteps 4194304
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "InvertedPendulum" --total_timesteps 4194304
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Pusher" --total_timesteps 16777216
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Reacher" --total_timesteps 4194304
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Swimmer" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "A2C" --uncertainty_method "Dropout" --environment_name "Walker2d" --total_timesteps 16777216
+
+
+
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "MountainCarContinuous" --total_timesteps 8388608
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "Pendulum" --total_timesteps 8388608
+--- (done, yellow) --   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "BipedalWalker" --total_timesteps 8388608
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "CarRacing" --total_timesteps 4194304
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "LunarLander" --total_timesteps 8388608
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "Ant" --total_timesteps 16777216
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "HalfCheetah" --total_timesteps 16777216
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "Hopper" --total_timesteps 16777216
+--- (done, red) ---     CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "Humanoid" --total_timesteps 16777216
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "HumanoidStandup" --total_timesteps 16777216
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "InvertedDoublePendulum" --total_timesteps 8388608
+--- (done, green) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "InvertedPendulum" --total_timesteps 8388608
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "Pusher" --total_timesteps 16777216
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "Reacher" --total_timesteps 16777216
+--- (done, brown) ---   CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "Swimmer" --total_timesteps 16777216
+--- (done, yellow) ---  CUDA_VISIBLE_DEVICES= python main.py --agent_name "DDPG" --uncertainty_method "Dropout" --environment_name "Walker2d" --total_timesteps 16777216
